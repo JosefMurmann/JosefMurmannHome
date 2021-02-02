@@ -109,6 +109,7 @@ function titl() {
   text("Jaywalking In CyberSpace", 0, -height/2+60, 0);
 }
 function mousepressed(){
+  console.log(sel)
   if (sel == 1){ 
     window.open("digmorph.html");
   }
