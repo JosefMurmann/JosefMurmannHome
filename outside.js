@@ -55,17 +55,17 @@ function fl() {
   }
   if (sel == 1) {
     texture(dig);
-    translate(0, 250, 0);
+    translate(0, 300, 0);
     box(400, 5, 400);
   }
   if (sel == 2) {
     texture(dig2);
-    translate(0, 250, 0);
+    translate(0, 300, 0);
     box(400, 5, 400);
   }
   if (sel == 3) {
     texture(dig3);
-    translate(0, 250, 0);
+    translate(0, 300, 0);
     box(400, 5, 400);
   }
   pop();
