@@ -142,12 +142,12 @@ function titl() {
 function mousePressed(){
   console.log(sel);
   if (sel == 1){ 
-    window.open("digmorph.html","_self");
+    window.open("outside/firefly.html","_self");
   }
   if (sel == 2){ 
     window.open("outside.html","_self");
   }
   if (sel == 3){ 
-    window.open("other.html","_self");
+    window.open("outside/rockpool.html","_self");
   }
 }
