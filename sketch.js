@@ -6,9 +6,9 @@ let up;
 let sel;
 function preload() {
 
-  tit = loadFont("ka1.ttf");
-  dig = loadImage("https://i.imgur.com/EK1xLp5.png");
-  lab = loadFont("lable.ttf");
+  tit = loadFont("ass/ka1.ttf");
+  dig = loadImage("ass/epic.png");
+  lab = loadFont("ass/lable.ttf");
 }
 
 function setup() {
