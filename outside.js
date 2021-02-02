@@ -136,7 +136,7 @@ function titl() {
   textAlign(CENTER);
   textFont(tit);
   textSize(20);
-  text("Digital Morphogenisis", 0, -height / 2 + 60, 0);
+  text("Outside", 0, -height / 2 + 60, 0);
 }
 
 function mousePressed(){
