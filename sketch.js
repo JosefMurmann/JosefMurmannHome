@@ -5,7 +5,7 @@ let lab;
 let up;
 let sel;
 function preload() {
-  
+
   tit = loadFont("ka1.ttf");
   dig = loadImage("https://i.imgur.com/EK1xLp5.png");
   lab = loadFont("lable.ttf");
@@ -107,4 +107,9 @@ function titl() {
   textFont(tit);
   textSize(20);
   text("Jaywalking In CyberSpace", 0, -height/2+60, 0);
+}
+function mousepressed(){
+  if (sel == 1){ 
+    window.open("digmorph.html");
+  }
 }
