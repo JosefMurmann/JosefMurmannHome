@@ -111,6 +111,6 @@ function titl() {
 function mousepressed(){
   console.log(sel)
   if (sel == 1){ 
-    window.open("digmorph.html");
+    window.open("digmorph.html","_self");
   }
 }
