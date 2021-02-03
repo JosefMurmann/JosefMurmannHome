@@ -142,10 +142,10 @@ function titl() {
 function mousePressed(){
   console.log(sel);
   if (sel == 1){ 
-    window.open("digmorph/difgrow.html","_self");
+    window.open("digmorph/reacdif.html","_self");
   }
   if (sel == 2){ 
-    window.open("outside.html","_self");
+    window.open("digmorph/difgrow.html","_self");
   }
   if (sel == 3){ 
     window.open("other.html","_self");
