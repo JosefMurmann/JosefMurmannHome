@@ -145,7 +145,7 @@ function mousePressed(){
     window.open("outside/firefly.html","_self");
   }
   if (sel == 2){ 
-    window.open("outside.html","_self");
+    window.open("outside/depth.html","_self");
   }
   if (sel == 3){ 
     window.open("outside/rockpool.html","_self");

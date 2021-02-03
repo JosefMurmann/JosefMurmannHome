@@ -5,7 +5,7 @@ function setup() {
 
   noFill()
   angleMode(DEGREES)
-  let canvas = createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(windowWidth*0.8, windowHeight/2);
   canvas.parent("p5Canvas")
   for (let i = 0; i < 50; i++) {
     nodes.push(new node(width/2 - 375 + i * 15, 300 + random(-5, 5), i))
@@ -15,8 +15,8 @@ function setup() {
 
 function draw() {
   strokeWeight(3)
-  stroke(0)
-  background(255);
+  stroke(255)
+  background(83);
   insrt = round(random(1, nodes.length - 2))
   beginShape()
   for (let i = 0; i < nodes.length; i++) {
