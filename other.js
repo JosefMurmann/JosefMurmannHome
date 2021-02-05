@@ -87,7 +87,7 @@ function sph() {
   rotateX(frameCount / 100);
   rotateY(PI + frameCount / 50);
 
-  torus(60,25);
+  torus(40,20);
   pop();
 }
 
@@ -107,7 +107,7 @@ function cyl() {
   rotateX(frameCount / 80);
   rotateZ(PI + frameCount / 100);
 
-  torus(60,25);
+  torus(40,20);
   pop();
 }
 
@@ -128,7 +128,7 @@ function bx() {
 
   rotateX(frameCount / 80);
   rotateZ(PI + frameCount / 100);
-  torus(60,25);
+  torus(40,20);
   pop();
 }
 
