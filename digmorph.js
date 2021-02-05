@@ -148,6 +148,6 @@ function mousePressed(){
     window.open("digmorph/difgrow.html","_self");
   }
   if (sel == 3){ 
-    window.open("other.html","_self");
+    window.open("digmorph/coral.html","_self");
   }
 }
