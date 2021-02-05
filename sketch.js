@@ -106,7 +106,7 @@ function titl() {
   textAlign(CENTER);
   textFont(tit);
   textSize(20);
-  text("Jaywalking In CyberSpace", 0, -height/2+60, 0);
+  text("Josef Murmanns' CyberSpace", 0, -height/2+60, 0);
 }
 function mousePressed(){
   console.log(sel);

@@ -5,15 +5,15 @@ body {
   h1 {
     color: rgb(206, 206, 206);;
     margin-top: 20px;
-    padding: 2%;
+    padding: 1%;
     margin: 50px;
     font-family: 'Raleway', sans-serif;
 
   }
 
 #p5Canvas{
-    padding: 5%;
-    height: 20%;
+    padding: 1%;
+    margin: 50px;
     
     display: block;
     z-index: -9999;
@@ -24,13 +24,14 @@ body {
   
 img{
 width: 40%;
-padding:2%
+padding-top: 2%;
+padding-left: 2%;
 
 
 }
 h3{
   color: rgb(206, 206, 206);;
-
+  margin: 50px;
   padding: 1%;
   
   font-family: 'Raleway', sans-serif;
