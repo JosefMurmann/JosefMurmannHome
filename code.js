@@ -6,9 +6,9 @@ let up;
 let sel;
 function preload() {
 
-  //tit = loadFont("ass/ka1.ttf");
+  tit = loadFont("ass/ka1.ttf");
   dig = loadImage("ass/epic.png");
- // lab = loadFont("ass/lable.ttf");
+  lab = loadFont("ass/lable.ttf");
 }
 
 function setup() {
@@ -56,11 +56,11 @@ function sph(){
   noStroke();
   rotateY(frameCount / 200);
   translate(120, -height/6, 120);
-  //textFont(lab);
+  textFont(lab);
   textSize(10);
   rotateY(-frameCount / 200);
   if(sel == 1){fill(255,0,0)}
-  text("Coding projects",0,80,10);
+  text("digital Morphogenisis",0,80,10);
   rotateX(frameCount / 100);
   rotateY(PI + frameCount / 50);
   texture(dig);
@@ -72,11 +72,11 @@ function cyl(){
   noStroke();
   rotateY(TWO_PI/1.5+ frameCount / 200);
   translate(120, 0, 120);
- // textFont(lab);
+  textFont(lab);
   textSize(10);
   rotateY(-TWO_PI/1.5+ -frameCount / 200);
   if(sel == 2){fill(255,0,0)}
-  text("Physical Computing",0,80,10);
+  text("WebGL",0,80,10);
   rotateX(frameCount / 80);
   rotateZ(PI + frameCount / 100);
   normalMaterial();
@@ -90,12 +90,12 @@ function bx(){
   noStroke();
   rotateY(TWO_PI/3 + frameCount / 200);
   translate(120, +height/6, 120);
- // textFont(lab);
+  textFont(lab);
   textSize(10);
   rotateY(-TWO_PI/3 - frameCount / 200);
   push();
   if(sel == 3){fill(255,0,0)}
-  text("About",0,80,10);
+  text("other projects",0,80,10);
   pop();
   rotateX(frameCount / 80);
   rotateZ(PI + frameCount / 100);
@@ -104,19 +104,19 @@ function bx(){
 }
 function titl() {
   textAlign(CENTER);
- // textFont(tit);
+  textFont(tit);
   textSize(20);
   text("Josef Murmann", 0, -height/2+60, 0);
 }
 function mousePressed(){
   console.log(sel);
   if (sel == 1){ 
-    window.open("code.html","_self");
+    window.open("digmorph.html","_self");
   }
   if (sel == 2){ 
-    window.open("physical.html","_self");
+    window.open("outside.html","_self");
   }
   if (sel == 3){ 
-    window.open("about.html","_self");
+    window.open("other.html","_self");
   }
 }
