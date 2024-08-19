@@ -64,7 +64,7 @@ function sph(){
   rotateX(frameCount / 100);
   rotateY(PI + frameCount / 50);
   texture(dig);
-  sphere(60);
+  cone(60);
   pop();
 }
 function cyl(){
@@ -80,7 +80,7 @@ function cyl(){
   rotateX(frameCount / 80);
   rotateZ(PI + frameCount / 100);
   normalMaterial();
-  cylinder(40,80);
+  torus(50,30);
   pop();
 }
 function bx(){
