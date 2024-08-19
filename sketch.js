@@ -117,6 +117,6 @@ function mousePressed(){
     window.open("PhysicalComputing.html","_self");
   }
   if (sel == 3){ 
-    window.open("about.html","_self");
+    window.open("aboutme.html","_self");
   }
 }
