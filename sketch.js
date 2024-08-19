@@ -6,9 +6,9 @@ let up;
 let sel;
 function preload() {
 
-  //tit = loadFont("ass/ka1.ttf");
-  dig = loadImage("ass/epic.png");
- // lab = loadFont("ass/lable.ttf");
+  tit = loadFont("assets/ka1.ttf");
+  dig = loadImage("assets/epic.png");
+  lab = loadFont("assets/lable.ttf");
 }
 
 function setup() {
@@ -56,14 +56,14 @@ function sph(){
   noStroke();
   rotateY(frameCount / 200);
   translate(120, -height/6, 120);
-  //textFont(lab);
+  textFont(lab);
   textSize(10);
   rotateY(-frameCount / 200);
   if(sel == 1){fill(255,0,0)}
   text("Coding projects",0,80,10);
   rotateX(frameCount / 100);
   rotateY(PI + frameCount / 50);
-  texture(dig);
+ texture(dig);
   sphere(60);
   pop();
 }
@@ -72,7 +72,7 @@ function cyl(){
   noStroke();
   rotateY(TWO_PI/1.5+ frameCount / 200);
   translate(120, 0, 120);
- // textFont(lab);
+  textFont(lab);
   textSize(10);
   rotateY(-TWO_PI/1.5+ -frameCount / 200);
   if(sel == 2){fill(255,0,0)}
@@ -90,7 +90,7 @@ function bx(){
   noStroke();
   rotateY(TWO_PI/3 + frameCount / 200);
   translate(120, +height/6, 120);
- // textFont(lab);
+  textFont(lab);
   textSize(10);
   rotateY(-TWO_PI/3 - frameCount / 200);
   push();
@@ -104,7 +104,7 @@ function bx(){
 }
 function titl() {
   textAlign(CENTER);
- // textFont(tit);
+ textFont(tit);
   textSize(20);
   text("Josef Murmann", 0, -height/2+60, 0);
 }
@@ -114,7 +114,7 @@ function mousePressed(){
     window.open("code.html","_self");
   }
   if (sel == 2){ 
-    window.open("physical.html","_self");
+    window.open("physicalComputing.html","_self");
   }
   if (sel == 3){ 
     window.open("about.html","_self");

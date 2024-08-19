@@ -6,9 +6,9 @@ let up;
 let sel;
 function preload() {
 
-  tit = loadFont("ass/ka1.ttf");
-  dig = loadImage("ass/epic.png");
-  lab = loadFont("ass/lable.ttf");
+  tit = loadFont("assets/ka1.ttf");
+  dig = loadImage("assets/epic.png");
+  lab = loadFont("assets/lable.ttf");
 }
 
 function setup() {
@@ -106,7 +106,7 @@ function titl() {
   textAlign(CENTER);
   textFont(tit);
   textSize(20);
-  text("Josef Murmann", 0, -height/2+60, 0);
+  text("coding projects", 0, -height/2+60, 0);
 }
 function mousePressed(){
   console.log(sel);

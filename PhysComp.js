@@ -7,7 +7,7 @@ let sel;
 
 function preload() {
   tit = loadFont("assets/ka1.ttf");
-  dig = loadImage("assets/fire.png");
+  dig = loadImage("assets/fax.jpg");
   dig2 = loadImage("assets/deep.png");
   dig3 = loadImage("assets/pool.png");
   lab = loadFont("assets/lable.ttf");
@@ -83,7 +83,7 @@ function sph() {
   if (sel == 1) {
     fill(255, 0, 0);
   }
-  text("Firefly", 0, 80, 10);
+  text("Portable fax machine", 0, 80, 10);
   rotateX(frameCount / 100);
   rotateY(PI + frameCount / 50);
 
@@ -103,7 +103,7 @@ function cyl() {
   if (sel == 2) {
     fill(255, 0, 0);
   }
-  text("Depths", 0, 80, 10);
+  text("Servo Camera", 0, 80, 10);
   rotateX(frameCount / 80);
   rotateZ(PI + frameCount / 100);
 
@@ -124,7 +124,7 @@ function bx() {
   if (sel == 3) {
     fill(255, 0, 0);
   }
-  text("Rock Pool", 0, 80, 10);
+  text("third thing", 0, 80, 10);
 
   rotateX(frameCount / 80);
   rotateZ(PI + frameCount / 100);
@@ -136,16 +136,16 @@ function titl() {
   textAlign(CENTER);
   textFont(tit);
   textSize(20);
-  text("WEBGL Projects", 0, -height / 2 + 60, 0);
+  text("Physical Computing", 0, -height / 2 + 60, 0);
 }
 
 function mousePressed(){
   console.log(sel);
   if (sel == 1){ 
-    window.open("outside/firefly.html","_self");
+    window.open("physcomp/fax.html","_self");
   }
   if (sel == 2){ 
-    window.open("outside/depth.html","_self");
+    window.open("physcomp/servocamera.html","_self");
   }
   if (sel == 3){ 
     window.open("outside/rockpool.html","_self");

@@ -6,11 +6,11 @@ let up;
 let sel;
 
 function preload() {
-  tit = loadFont("ass/ka1.ttf");
-  dig = loadImage("ass/qr.png");
-  dig2 = loadImage("ass/flow.png");
-  dig3 = loadImage("ass/clock.png");
-  lab = loadFont("ass/lable.ttf");
+  tit = loadFont("assets/ka1.ttf");
+  dig = loadImage("assets/qr.png");
+  dig2 = loadImage("assets/flow.png");
+  dig3 = loadImage("assets/clock.png");
+  lab = loadFont("assets/lable.ttf");
 }
 
 function setup() {
