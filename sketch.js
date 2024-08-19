@@ -59,7 +59,10 @@ function sph(){
   textFont(lab);
   textSize(10);
   rotateY(-frameCount / 200);
-  if(sel == 1){fill(255,0,0)}
+  if(sel == 1){
+    text("projects in HTML, Javascript, P5.js, and WEBGL",50,80,10);
+    fill(255,0,0);
+  }
   text("Coding projects",0,80,10);
   rotateX(frameCount / 100);
   rotateY(PI + frameCount / 50);
@@ -75,7 +78,10 @@ function cyl(){
   textFont(lab);
   textSize(10);
   rotateY(-TWO_PI/1.5+ -frameCount / 200);
-  if(sel == 2){fill(255,0,0)}
+  if(sel == 2){
+    text("projects which consist building physical prototypes, including rasbery pi, arduino and more...",50,80,10);
+    fill(255,0,0);
+  }
   text("Physical Computing",0,80,10);
   rotateX(frameCount / 80);
   rotateZ(PI + frameCount / 100);
@@ -94,7 +100,9 @@ function bx(){
   textSize(10);
   rotateY(-TWO_PI/3 - frameCount / 200);
   push();
-  if(sel == 3){fill(255,0,0)}
+  if(sel == 3){
+    text("About Josef Murmann",50,80,10);
+    fill(255,0,0)}
   text("About",0,80,10);
   pop();
   rotateX(frameCount / 80);
