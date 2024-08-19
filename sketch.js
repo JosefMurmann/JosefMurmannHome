@@ -114,7 +114,7 @@ function mousePressed(){
     window.open("code.html","_self");
   }
   if (sel == 2){ 
-    window.open("physicalComputing.html","_self");
+    window.open("PhysicalComputing.html","_self");
   }
   if (sel == 3){ 
     window.open("about.html","_self");
