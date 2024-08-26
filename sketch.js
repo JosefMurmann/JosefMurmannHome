@@ -16,6 +16,7 @@ function setup() {
   canvas = createCanvas(windowWidth, windowHeight, WEBGL);
   canvas.parent("p5Canvas");
   frameRate(50);
+  
 
 }
 
@@ -57,10 +58,10 @@ function sph(){
   rotateY(frameCount / 200);
   translate(120, -height/6, 120);
   textFont(lab);
-  textSize(10);
+  textSize(9);
   rotateY(-frameCount / 200);
   if(sel == 1){
-    text("projects in HTML, Javascript, P5.js, and WEBGL",50,80,10);
+    text("projects in HTML, Javascript, P5.js, and WEBGL",60,0,300);
     fill(255,0,0);
   }
   text("Coding projects",0,80,10);
@@ -76,10 +77,10 @@ function cyl(){
   rotateY(TWO_PI/1.5+ frameCount / 200);
   translate(120, 0, 120);
   textFont(lab);
-  textSize(10);
+  textSize(9);
   rotateY(-TWO_PI/1.5+ -frameCount / 200);
   if(sel == 2){
-    text("projects which consist building physical prototypes, including rasbery pi, arduino and more...",50,80,10);
+    text("projects which consist building physical prototypes, including rasbery pi, arduino and more...",60,0,300);
     fill(255,0,0);
   }
   text("Physical Computing",0,80,10);
@@ -97,11 +98,11 @@ function bx(){
   rotateY(TWO_PI/3 + frameCount / 200);
   translate(120, +height/6, 120);
   textFont(lab);
-  textSize(10);
+  textSize(9);
   rotateY(-TWO_PI/3 - frameCount / 200);
   push();
   if(sel == 3){
-    text("About Josef Murmann",50,80,10);
+    text("About Josef Murmann",60,0,300);
     fill(255,0,0)}
   text("About",0,80,10);
   pop();
