@@ -124,7 +124,7 @@ function bx() {
   if (sel == 3) {
     fill(255, 0, 0);
   }
-  text("third thing", 0, 80, 10);
+  text("3D design and printing", 0, 80, 10);
 
   rotateX(frameCount / 80);
   rotateZ(PI + frameCount / 100);
@@ -148,6 +148,6 @@ function mousePressed(){
     window.open("physcomp/servocamera.html","_self");
   }
   if (sel == 3){ 
-    window.open("outside/rockpool.html","_self");
+    window.open("physcomp/3dprint.html","_self");
   }
 }

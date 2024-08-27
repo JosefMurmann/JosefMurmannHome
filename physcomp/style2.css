@@ -8,14 +8,20 @@ body {
     padding: 2%;
     margin: 50px;
     font-family: 'Raleway', sans-serif;
+  
 
   }
 
 
   
 img{
-width: 40%;
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 padding: 10px;
+
 
 
 
@@ -24,6 +30,10 @@ h3{
   color: rgb(206, 206, 206);;
 
   padding: 1%;
-  
+  max-width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   font-family: 'Raleway', sans-serif;
 }
