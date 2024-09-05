@@ -8,7 +8,7 @@ let sel;
 function preload() {
   tit = loadFont("assets/ka1.ttf");
   dig = loadImage("assets/fax.jpg");
-  dig2 = loadImage("assets/deep.png");
+  dig2 = loadImage("physcomp/img/cam2.png");
   dig3 = loadImage("assets/pool.png");
   lab = loadFont("assets/lable.ttf");
 }
