@@ -22,6 +22,7 @@ function setup() {
 
 function draw() {
   background(30);
+  translate(0,0,100)
   fl();
   titl();
   sph();
@@ -80,7 +81,7 @@ function cyl(){
   textSize(9);
   rotateY(-TWO_PI/1.5+ -frameCount / 200);
   if(sel == 2){
-    text("projects which consist building physical prototypes, including rasbery pi, arduino and more...",60,0,300);
+    text("projects which consist building physical prototypes, including rasbery pi, arduino and 3d printing...",60,0,300);
     fill(255,0,0);
   }
   text("Physical Computing",0,80,10);
