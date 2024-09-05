@@ -22,7 +22,6 @@ function setup() {
 
 function draw() {
   background(30);
-  translate(0,0,100)
   fl();
   titl();
   sph();
